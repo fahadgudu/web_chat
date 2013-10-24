@@ -1,0 +1,116 @@
+@charset "utf-8";
+/* Brown Style */
+
+h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover{
+	color: #cfa37f;
+}
+input, textarea, select {
+	color:#5d5144;
+}
+.menu-wrap {
+	background: url("bg-header-brown.png") repeat-x;
+}
+#header{
+	background: url("bgTopbrown.jpg") repeat-x center top;
+}
+#header .glow{
+	background: url("glowBrown.png") no-repeat center top;
+}
+#headerSlider{
+	background: url("bgTopbrown.jpg") repeat-x center top;
+}
+#headerSlider .glow{
+	background: url("glowBrown.png") no-repeat center top;
+}
+.main-menu ul li:hover, .main-menu ul li.active {
+	border-bottom: solid 2px #916649;	
+}
+.main-menu ul li ul {
+	background: #29180f;
+}
+.main-menu ul ul li ul ,.main-menu ul ul ul  {
+	background: #29180f;
+}
+.main-menu ul ul li ul li a:hover,.main-menu ul ul ul li a:hover {
+	background: #4e3b24;
+}
+.main-menu ul ul li:hover{
+	background: #4e3b24;
+}
+.main-menu ul li ul li.drop{
+	background: url("arrow02.png") no-repeat 90% 13px ;
+}
+.main-menu ul li ul li:hover.drop{
+	background: #4e3b24 url("arrow02.png") no-repeat 90% 13px;
+}
+.nivo-directionNav a {
+	background:url("arrows-brown.png") no-repeat;
+}
+.ei-slider-thumbs li.ei-slider-element{
+	background: #441d0d;
+	background: rgba(68,29,13,0.9);
+}
+.ei-slider-thumbs li a:hover{
+	background-color: #671f09;
+}
+.promo-box p span{
+	color: #b38662;
+}
+p.subtitle{
+	color: #b38662 !important;
+}
+.testimonial p span{
+	color: #b38662;
+}
+.blog-post h3 a:hover{
+	color: #d09b63;
+}
+.nameInput, .emailInput, .webInput{
+	background: #241b0d;
+	border: 1px solid #462b19;
+}
+.messageInput{
+	border: 1px solid #462b19;
+	background: #241b0d;
+}
+.nameInput:hover, .emailInput:hover, .webInput:hover, .messageInput:hover{
+	border: 1px solid #4d2a1c;
+}
+.nameInput:focus, .emailInput:focus, .webInput:focus, .messageInput:focus{
+	background-color: #2d2112;
+}
+#footer{
+	background: url("bg-bottom-brown.jpg") repeat;
+}
+.post-footer{
+	background: rgba(30,15,2,0.6);
+}
+#categories li a:hover{
+	color: #c78362;
+}
+#popularPost li p a:hover{
+	color: #c78362;
+}
+.separator h5{
+	background: #7b5938;
+}
+.image .mask.zoom{
+	background: url("mg-black.png") center center no-repeat;
+	background-color: rgba(241,241,241, 0.5);
+}
+.image .mask.link{
+	background: url("link-black.png") center center no-repeat;
+	background-color: rgba(241,241,241, 0.5);
+}
+.image .mask.youtube{
+	background: url("youtube-black.png") center center no-repeat;
+	background-color: rgba(241,241,241, 0.5);
+}
+.image .mask.vimeo{
+	background: url("vimeo-black.png") center center no-repeat;
+	background-color: rgba(241,241,241, 0.5);
+}
+.image .mask.play{
+	background: url("play-black.png") center center no-repeat;
+	background-color: rgba(241,241,241, 0.5);
+}

@@ -1,0 +1,185 @@
+
+/* -- 1. 960 - Full Width (Main Grid Layout) -- */
+
+.container 									{ width: 960px; margin: 0 auto; padding: 0;}
+.container #slider, 
+.container .main-wrap, 
+.container .footer-wrap, 
+.container .post-footer-wrap, 
+.container .main-menu-wrap, 
+.container .main-wrap, 
+.container .header-wrap, 
+.container .ei-slider, 
+.container .testimonial						{ width: 900px; }
+
+.container  .main-menu select 				{ visibility:hidden; }
+.container  .main-menu 						{ max-width: 720px; }
+
+/* -- Grid -- */
+.container .fullWidth						{ float: left; width: 900px; clear: both; }
+.container .oneHalf							{ float: left; width: 436px; margin-right: 26px; }
+.container .oneThird						{ float: left; width: 284px; margin-right: 24px; }
+.container .twoThirds						{ float: left; width: 591px; margin-right: 25px; }
+.container .oneFourth						{ float: left; width: 207px; margin-right: 24px; }
+.container .threeFourths					{ float: left; width: 669px; margin-right: 24px; }
+.container .oneFifth						{ float: left; width: 164px; margin-right: 25px; }
+.container .twoFifths						{ float: left; width: 330px; margin-right: 25px; }
+.container .threeFifths						{ float: left; width: 542px; margin-right: 25px; }
+.container .last							{ margin-right: 0 !important; padding: 0 !important; }
+
+/* -- 2. 768 - Tablet (Portrait) -- */
+
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+
+	.wrap, .container						{ width: 753px !important; margin-top: 0 !important; margin-bottom: 0 !important; padding: 0; } 
+	.container #slider, 
+	.container .main-wrap, 
+	.container .footer-wrap, 
+	.container .post-footer-wrap, 
+	.container .main-menu-wrap, 
+	.container .header-wrap, 
+	.container .ei-slider, 
+	.container .testimonial					{ width: 722px; margin: 0 auto; }
+	
+	.container #slider						{ margin-top: -300px !important; }
+	.container #headerSlider				{ height: 375px; }
+	.container .nivo-caption h4 			{ font: 25px/1em 'TitilliumText22LRegular', Arial, sans-serif; }
+	.container .main-menu 					{ max-width: 533px; }
+	.container .blog-post					{ width: 100%; margin-right: 0 !important; }
+	.container .post						{ width: 94%; margin-right: 0 !important; }
+	.container .imageBlog					{ width: 415px; }
+	.container .sidebar						{ display: none !important; }
+	.container #slider.fix 					{ height: 300px; }
+
+
+	/* -- Grid -- */
+	.container .fullWidth					{ float: left; width: 722px; clear: both; }
+	.container .oneHalf						{ float: left; width: 350px; margin-right: 22px; }
+	.container .oneThird					{ float: left; width: 226px; margin-right: 22px; }
+	.container .twoThirds					{ float: left; width: 466px; margin-right: 23px; }
+	.container .oneFourth					{ float: left; width: 164px; margin-right: 22px; }
+	.container .threeFourths				{ float: left; width: 525px; margin-right: 22px; }
+	.container .oneFifth					{ float: left; width: 126px; margin-right: 23px; }
+	.container .twoFifths					{ float: left; width: 275px; margin-right: 22px; }
+	.container .threeFifths					{ float: left; width: 424px; margin-right: 23px; }
+	.container .last						{ margin-right: 0; }
+	
+}
+
+/* -- 3. 320 - Mobile (Portrait) -- */
+
+@media only screen and (max-width: 767px) {
+
+	.wrap, 
+	.container								{ width: 100% !important; margin-top: 0 !important; margin-bottom: 0 !important; padding: 0; }
+	.container .main-wrap, 
+	.container .footer-wrap, 
+	.container .post-footer-wrap, 
+	.container .main-menu-wrap, 
+	.container .header-wrap,	
+	.container .testimonial					{ width: 94%; }
+	
+	.container #slider,
+	.container .sidebar						{ display: none !important; }
+	
+	/* -- Grid -- */
+	.container .fullWidth,					
+	.container .oneHalf,						
+	.container .oneThird,					
+	.container .twoThirds,					
+	.container .oneFourth,					
+	.container .threeFourths,				
+	.container .twoFifths,
+	.container .cat,
+	.container .threeFifths,	 
+	.container .columns						{ width: 100% !important; margin: 0 auto; float:none; clear:both; }
+	.container .last						{ margin-right: 0; }
+	.container .oneFifth					{ float: left; width: 30%; margin-right: 3%; }
+	
+	.container #headerSlider				{ height: 160px; }
+	.container #header						{ height: 215px; }
+	.container .phone						{ float: left !important; }		
+	.container .nivo-caption h4 			{ font: 19px/1em 'TitilliumText22LRegular', Arial, sans-serif; }
+	.container .nivo-caption p 				{ font: 12px/1em 'TitilliumText22LRegular', Arial, sans-serif; }
+	.container .nivo-caption span			{ font: 12px/1em 'TitilliumText22LRegular', Arial, sans-serif; }
+	.container .call,
+	.container .main-menu ul				{ display:none; }
+	.container .blog-post,
+	.container .imageBlog,
+	.container .main-menu,
+	.container .textBlog					{ width: 100%; margin-right: 0 !important; }
+	.container .post						{ width: 85%; margin-right: 0 !important; }
+	.container .main-menu select 			{ visibility:visible !important; width:100%; float: none; background-color: #eee;
+											height: 36px; margin:0px auto 0; color:#707070; border:none; display: inline-block !important;
+											padding:10px 5px 5px; font: 12px/1em 'TitilliumText22LRegular', Arial, sans-serif; }
+	.container .main-menu select option		{ height: 20px; margin:5px auto 0; border:none; padding:10px 5px 0 5px;}
+	.container .logo						{ float: none !important; }
+	.container .pages,
+	.container .blog-post,
+	.container .post						{ margin-bottom: 20px; }
+	.container .textBlogdetails p			{ width: 100%; clear: both; display: block; padding-top: 20px; }
+	.container .promo-box					{ text-align: center; margin: 0 auto; }
+	
+	
+	/* Offsets */
+	.container .fullWidth:before,
+	.container .fullWidth:after, 			
+	.container .oneHalf:before,
+	.container .oneHalf:after,
+	.container .oneThird:before,					
+	.container .oneThird:after,					
+	.container .twoThirds:before,
+	.container .twoThirds:after,
+	.container .oneFourth:before,					
+	.container .oneFourth:after,
+	.container .threeFourths:before,				
+	.container .threeFourths:after,
+	.container .oneFifth:before,			
+	.container .oneFifth:after,	
+	.container .twoFifths:before,				
+	.container .twoFifths:after,
+	.container .oneThird:before,
+	.container .oneThird:after				{content: ""; display: block; clear: both; visibility: hidden; line-height: 0; height: 10px; }
+	
+	.clear, .clear20, .clear30, .clear40	{ height: 0 !important; }
+
+/* -- 4. 480 - Mobile (Landscape) -- */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+	.wrap, 
+	.container,								{ width: 100% !important; margin: 0 auto !important; }
+	
+	.container .main-wrap, 
+	.container .footer-wrap, 
+	.container .post-footer-wrap, 
+	.container .main-menu-wrap, 
+	.container .header-wrap,  
+	.container .testimonial					{ width: 94% !important; }
+	
+	.container #header						{ height: 155px; }
+	.container #headerSlider				{ height: 95px; }
+	.container .post						{ width: 90%; margin-right: 0 !important; }
+	.container .pages						{ margin-bottom: 20px; }
+	
+	/* -- Grid -- */
+	.container .fullWidth,					
+	.container .oneHalf,						
+	.container .oneThird,					
+	.container .twoThirds,					
+	.container .oneFourth,					
+	.container .threeFourths,									
+	.container .twoFifths,
+	.container .threeFifths					{ width: 100%; }
+	.container .last						{ margin-right: auto !important; }
+	
+	.container .call,
+	.container .main-menu ul				{ display:none; }
+	.container .main-menu select 			{ visibility:visible !important; width:100%; float:right; background-color: #eee; 
+											height: 36px; margin:15px auto 0; color:#707070; border:none; 
+											padding:10px 5px 5px; font: 12px/1em 'TitilliumText22LRegular', Arial, sans-serif; }
+	.container .main-menu select option		{ height: 20px; margin:5px auto 0; border:none; padding:10px 5px 0 5px;}
+	.container .logo						{ float: left !important; }
+	.container .promo-box					{ text-align: center; margin: 0 auto; }
+
+}

@@ -1,0 +1,36 @@
+/*----- Reset Tags -----*/
+@import url("bromo.css");
+@import url("nivo-slider.css");
+@import url("animate.css");
+@import url("prettyPhoto.css");
+@import url("layout.css");
+
+/*----- Skin Styles -----
+@import url("black.css");
+@import url("brown.css");
+@import url("blue.css");
+*/
+@import url("black.css");
+
+/*----- Layout Styles -----
+@import url("fullWidth.css");
+@import url("boxed.css");
+*/
+@import url("fullWidth.css");
+
+/*----- Pattern Styles -----
+body { background: url(../images/pattern/1.png) repeat #eee; }
+body { background: url(../images/pattern/2.png) repeat #eee; }
+body { background: url(../images/pattern/3.png) repeat #eee; }
+body { background: url(../images/pattern/4.png) repeat #eee; }
+body { background: url(../images/pattern/5.png) repeat #eee; }
+body { background: url(../images/pattern/6.png) repeat #eee; }
+body { background: url(../images/pattern/7.png) repeat #eee; }
+body { background: url(../images/pattern/8.png) repeat #eee; }
+*/
+
+/*----- Background Image Styles -----
+body { background: url(../images/wall1.jpg) fixed top center; background-size: cover; }
+body { background: url(../images/wall2.jpg) fixed top center; background-size: cover; }
+body { background: url(../images/wall3.jpg) fixed top center; background-size: cover; }
+*/
