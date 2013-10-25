@@ -8,6 +8,7 @@
     %title Bromo - Nivo Slider
     / Mobile Device Meta
     %meta{content: "width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0", name: "viewport"}/
+    / Style
   %body
     .wrap.container
       #headerSlider
@@ -116,15 +117,10 @@
               %img{alt: "", src: "images/big-shadow.png"}/
             / end nivo slider
           .clear
-          -#.promo-box
+          .promo-box
           -#  .threeFifths
-          -#    %h2 Welcome to Bromo Business and Corporate Template
-          -#    %h3 Laoreet dolore magnamus aliquam erat volutpat
           -#  .twoFifths.last
-          -#    %a.button.medium.blue{href: "#"} Buy now for $15
           -#    %span.or
-          -#      %span or
-          -#    %a.button.medium.orange{href: "#"} Take the tour
           .clear20
           / start three columns
           .oneThird
@@ -197,7 +193,7 @@
             %br/
           .oneThird.last
             .image.frameInner
-              %a{"data-rel" => "prettyPhoto", href: "image3.jpg"}
+              %a{"data-rel" => "prettyPhoto", href: "images/image3.jpg"}
                 %img{alt: "", src: "images/image3.jpg"}/
                 .mask.zoom
                   %p Jan 24, 2012
@@ -222,21 +218,21 @@
             .oneFifth.columns
               .iconbox
                 %span.iconbox-icon
-                  %img{alt: "", src: "images/help.png"}/
+                  %img{alt: "", src: "./images/help.png"}/
                 .iconbox-content
                   %h3.iconbox-content-title Full Support
                   %p Lorem ipsum dolor sit amet, consectetuer adipiscing elit
             .oneFifth.columns
               .iconbox
                 %span.iconbox-icon
-                  %img{alt: "", src: "images/gears.png"}/
+                  %img{alt: "", src: "./images/gears.png"}/
                 .iconbox-content
                   %h3.iconbox-content-title Easy Setup
                   %p Lorem ipsum dolor sit amet, consectetuer adipiscing elit
             .oneFifth.columns.last
               .iconbox
                 %span.iconbox-icon
-                  %img{alt: "", src: "images/movie.png"}/
+                  %img{alt: "", src: "./images/movie.png"}/
                 .iconbox-content
                   %h3.iconbox-content-title Video Support
                   %p Lorem ipsum dolor sit amet, consectetuer adipiscing elit
@@ -244,21 +240,21 @@
             .oneFifth.columns
               .iconbox
                 %span.iconbox-icon
-                  %img{alt: "", src: "images/layout.png"}/
+                  %img{alt: "", src: "./images/layout.png"}/
                 .iconbox-content
                   %h3.iconbox-content-title Beautiful design
                   %p Lorem ipsum dolor sit amet, consectetuer adipiscing elit
             .oneFifth.columns
               .iconbox
                 %span.iconbox-icon
-                  %img{alt: "", src: "images/write.png"}/
+                  %img{alt: "", src: "./images/write.png"}/
                 .iconbox_content
                   %h3.iconbox-content-title Framework
                   %p Lorem ipsum dolor sit amet, consectetuer adipiscing elit
             .oneFifth.columns.last
               .iconbox
                 %span.iconbox-icon
-                  %img{alt: "", src: "images/download.png"}/
+                  %img{alt: "", src: "./images/download.png"}/
                 .iconbox-content
                   %h3.iconbox-content-title Download
                   %p Lorem ipsum dolor sit amet, consectetuer adipiscing elit
@@ -267,8 +263,8 @@
             .toggles
               %ul
                 %li
-                  %a{"data-closedimage" => "plus.png", "data-openimage" => "minus.png", "data-rel" => "toggle[first]", href: "#"}
-                    %img{alt: "", src: "images/plus.png"}/
+                  %a{"data-closedimage" => "./images/plus.png", "data-openimage" => "./images/minus.png", "data-rel" => "toggle[first]", href: "#"}
+                    %img{alt: "", src: "./images/plus.png"}/
                     %h4 Duis autem vel eum iriure
                   #first
                     %p
@@ -279,8 +275,8 @@
                       in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis
                       at vero
                 %li
-                  %a{"data-closedimage" => "plus.png", "data-openimage" => "minus.png", "data-rel" => "toggle[second]", href: "#"}
-                    %img{alt: "", src: "images/plus.png"}/
+                  %a{"data-closedimage" => "./images/plus.png", "data-openimage" => "./images/minus.png", "data-rel" => "toggle[second]", href: "#"}
+                    %img{alt: "", src: "./images/plus.png"}/
                     %h4 Vel illum dolore eu feugiat
                   #second
                     %p
@@ -291,8 +287,8 @@
                       in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat
                       nulla facilisis at vero
                 %li
-                  %a{"data-closedimage" => "plus.png", "data-openimage" => "minus.png", "data-rel" => "toggle[third]", href: "#"}
-                    %img{alt: "", src: "images/plus.png"}/
+                  %a{"data-closedimage" => "./images/plus.png", "data-openimage" => "./images/minus.png", "data-rel" => "toggle[third]", href: "#"}
+                    %img{alt: "", src: "./images/plus.png"}/
                     %h4 Euismod tincidunt ut laoreet
                   #third
                     %p
@@ -334,7 +330,8 @@
               magnamus aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper
               suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse
               molestie consequat.
-          / <div class="oneFourth last"><a href="#" class="button medium orange">buy this template</a></div>
+          .oneFourth.last
+            %a.button.medium.orange{href: "#"} buy this template
           .dash-line.gray
           / Pages
           .oneFifth
@@ -456,3 +453,11 @@
               %p.fr{style: "font-style:italic;"} Let's be social
         / end post footer
       / end footer
+
+:javascript
+    $(window).load(function() {
+      $('#sliderv').nivoSlider({ pauseTime: parseInt(5000), pauseOnHover: true, effect: 'random', controlNav: true, captionOpacity: .7, directionNavHide: true, controlNavThumbs:false, controlNavThumbsFromRel:false, boxCols:8, boxRows:4, afterLoad: function(){
+      $('#slider_loading').css('display', 'none');
+      $('#slider_wrapper').css('visibility', 'visible');
+      } });
+      });
