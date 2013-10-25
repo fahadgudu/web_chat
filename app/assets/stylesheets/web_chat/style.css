@@ -18,19 +18,18 @@
 */
 @import url("fullWidth.css");
 
-/*----- Pattern Styles -----
-body { background: url(../images/pattern/1.png) repeat #eee; }
-body { background: url(../images/pattern/2.png) repeat #eee; }
-body { background: url(../images/pattern/3.png) repeat #eee; }
-body { background: url(../images/pattern/4.png) repeat #eee; }
-body { background: url(../images/pattern/5.png) repeat #eee; }
-body { background: url(../images/pattern/6.png) repeat #eee; }
-body { background: url(../images/pattern/7.png) repeat #eee; }
-body { background: url(../images/pattern/8.png) repeat #eee; }
-*/
+/*----- Pattern Styles -----   */
+body { background: url("1.png") repeat #eee; }
+body { background: url("2.png") repeat #eee; }
+body { background: url("3.png") repeat #eee; }
+body { background: url("4.png") repeat #eee; }
+body { background: url("5.png") repeat #eee; }
+body { background: url("6.png") repeat #eee; }
+body { background: url("7.png") repeat #eee; }
+body { background: url("8.png") repeat #eee; }
 
 /*----- Background Image Styles -----
-body { background: url(../images/wall1.jpg) fixed top center; background-size: cover; }
-body { background: url(../images/wall2.jpg) fixed top center; background-size: cover; }
-body { background: url(../images/wall3.jpg) fixed top center; background-size: cover; }
+body { background: url(1.jpg) fixed top center; background-size: cover; }
+body { background: url(wall2.jpg) fixed top center; background-size: cover; }
+body { background: url(wall3.jpg) fixed top center; background-size: cover; }
 */

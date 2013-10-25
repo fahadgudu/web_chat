@@ -20,7 +20,7 @@ input, textarea, select {
 	background: url("bgTopblack.jpg") repeat-x center top;
 }
 #headerSlider .glow{
-	background: url("glowBlack.png") no-repeat center top;
+	background: url("glow.png") no-repeat center top;
 }
 .main-menu ul li:hover, .main-menu ul li.active {
 	border-bottom: solid 2px #828282;	
