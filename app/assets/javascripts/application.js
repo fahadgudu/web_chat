@@ -12,8 +12,10 @@
 //
 //= require jquery
 //= require jquery_ujs
+//= require twitter/bootstrap
 //= require_self
 //= require_tree ./web_chat
+//= require_tree ./bootstrap_nav
 //= require_tree .
 
 
