@@ -876,7 +876,7 @@ p.subtitle{
 	cursor: pointer;
 	font: 12px/1em 'TitilliumText22LRegular', Arial, sans-serif;
 	padding: 9px 11px;
-	/*color: #909090; !important;*/
+	color: #909090 !important;
 	background: #f7f7f7; /* Old browsers */
 	background: -moz-linear-gradient(top, #f7f7f7 0%, #e7e7e7 100%); /* FF3.6+ */
 	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f7f7f7), color-stop(100%,#e7e7e7)); /* Chrome,Safari4+ */
@@ -897,7 +897,7 @@ p.subtitle{
 .button:hover{
 	position: relative;
 	background: #ededed;
-	color: #828282; !important;
+	color: #828282 !important;
 	cursor: pointer;
 }
 .button:active{	
@@ -1310,7 +1310,7 @@ input.button, button.button{
 	font: 10px/1em 'TitilliumText22LRegular', Arial, sans-serif;
 	padding: 9px 11px;
 	text-transform: uppercase;
-	color: #909090; !important;
+	color: #909090 !important;
 	background: #f0f0f0; /* Old browsers */
 	background: -moz-linear-gradient(top, #f7f7f7 0%, #e7e7e7 100%); /* FF3.6+ */
 	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f7f7f7), color-stop(100%,#e7e7e7)); /* Chrome,Safari4+ */
