@@ -5255,7 +5255,7 @@ div#price_table {
 	float:left;
 	border: 1px solid #dedede;
 	margin-bottom: 21px;
-	width:100% /* Changing this value will widen the table, you may also need to adjust the #price_table .column width*/
+	width:100%; /* Changing this value will widen the table, you may also need to adjust the #price_table .column width*/
 	background: #f1f4f8; /* This is to fix the left and right borders if the box is too wide */
 	margin-top:21px;
 	font-size: 13px;
