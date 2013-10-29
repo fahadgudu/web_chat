@@ -73,9 +73,6 @@ h5 {
 h6 {
 	font: 12px/1.2em 'TitilliumText22LRegular', Arial, sans-serif;
 }
-h7 {
-	font: 10px/1.2em 'TitilliumText22LRegular', Arial, sans-serif;
-}
 .fl{
 	float: left !important;
 }
@@ -1318,7 +1315,7 @@ input.button, button.button{
 	background: -o-linear-gradient(top, #f7f7f7 0%,#e7e7e7 100%); /* Opera 11.10+ */
 	background: -ms-linear-gradient(top, #f7f7f7 0%,#e7e7e7 100%); /* IE10+ */
 	background: linear-gradient(top, #f7f7f7 0%,#e7e7e7 100%); /* W3C */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7f7f7', endColorstr='#e7e7e7',GradientType=0 ); /* IE6-9 */
+	/*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7f7f7', endColorstr='#e7e7e7',GradientType=0 ); *//* IE6-9 */
 	border: solid 1px #dddddd;
 	-moz-border-radius: 3px; 
 	-webkit-border-radius: 3px; 
@@ -2213,7 +2210,7 @@ blockquote:after {
 .basicTable table tbody .odd{
 	background-color: #fafafa;
 }
-basicTable table thead{
+.basicTable table thead{
 	border-bottom: 1px solid #dedede;
 	font-size: 16px;
 }
@@ -2282,7 +2279,7 @@ div#price_table {
 	float:left;
 	border: 1px solid #dedede;
 	margin-bottom: 21px;
-	width:100% /* Changing this value will widen the table, you may also need to adjust the #price_table .column width*/
+	width:100%; /* Changing this value will widen the table, you may also need to adjust the #price_table .column width*/
 	background: #f1f4f8; /* This is to fix the left and right borders if the box is too wide */
 	margin-top:21px;
 	font-size: 13px;
