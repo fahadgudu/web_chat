@@ -1,235 +1,270 @@
-!!!
-%html
-  %head
-    %meta{content: "text/html; charset=utf-8", "http-equiv" => "Content-Type"}/
-    %meta{content: "bromo", name: "author"}/
-    %meta{content: "a short description of your company", name: "description"}/
-    %meta{content: "some keywords that best describe your business", name: "keywords"}/
-    %title Bromo - Nivo Slider
-    / Mobile Device Meta
-    %meta{content: "width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0", name: "viewport"}/
-    / Style
+#main
+  .main-wrap
+    #slider
+      / start nivo slider
+      .slider-wrapper
+        #sliderv.nivoSlider
+          %img{alt: "", src: "images/big-image0.jpg", style: "width: 900px; visibility: hidden;", title: "<p><span><b>BROMO TEMPLATE</b> <i>CLEAN and MINIMALIST business template</b></span></p>"}/
+          %img{alt: "", src: "images/big-image1.jpg", style: "width: 900px; visibility: hidden;"}/
+          %img{alt: "", src: "images/big-image2.jpg", style: "width: 900px; visibility: hidden;", title: "#htmlcaption"}/
+          %img{alt: "", src: "images/big-image3.jpg", style: "width: 900px; visibility: hidden;"}/
+          %img.nivo-main-image{src: "images/big-image1.jpg", style: "width: 900px; height: 360px; overflow: hidden;"}/
+          .nivo-caption{style: "display: block;"}
+            %h4 This is an example for title
+            %p
+              %span Welcome to Bromo Bussines and Portofolio Template.
+          .nivo-directionNav{style: "display: none;"}
+            %a.nivo-prevNav Prev
+            %a.nivo-nextNav Next
+          .nivo-slice{name: "0", style: "left: 0px; width: 60px; height: 360px; opacity: 0; overflow: hidden; bottom: 0px;"}
+            %img{src: "images/big-image2.jpg", style: "position:absolute; width:900px; height:auto; display:block !important; top:0; left:-0px;"}/
+          .nivo-slice{name: "1", style: "left: 60px; width: 60px; height: 360px; opacity: 0; overflow: hidden; bottom: 0px;"}
+            %img{src: "images/big-image2.jpg", style: "position:absolute; width:900px; height:auto; display:block !important; top:0; left:-60px;"}/
+          .nivo-slice{name: "2", style: "left: 120px; width: 60px; height: 360px; opacity: 0; overflow: hidden; bottom: 0px;"}
+            %img{src: "images/big-image2.jpg", style: "position:absolute; width:900px; height:auto; display:block !important; top:0; left:-120px;"}/
+          .nivo-slice{name: "3", style: "left: 180px; width: 60px; height: 360px; opacity: 0; overflow: hidden; bottom: 0px;"}
+            %img{src: "images/big-image2.jpg", style: "position:absolute; width:900px; height:auto; display:block !important; top:0; left:-180px;"}/
+          .nivo-slice{name: "4", style: "left: 240px; width: 60px; height: 360px; opacity: 0.175536; overflow: hidden; bottom: 0px;"}
+            %img{src: "images/big-image2.jpg", style: "position:absolute; width:900px; height:auto; display:block !important; top:0; left:-240px;"}/
+          .nivo-slice{name: "5", style: "left: 300px; width: 60px; height: 360px; opacity: 0.340656; overflow: hidden; bottom: 0px;"}
+            %img{src: "images/big-image2.jpg", style: "position:absolute; width:900px; height:auto; display:block !important; top:0; left:-300px;"}/
+          .nivo-slice{name: "6", style: "left: 360px; width: 60px; height: 360px; opacity: 0.507196; overflow: hidden; bottom: 0px;"}
+            %img{src: "images/big-image2.jpg", style: "position:absolute; width:900px; height:auto; display:block !important; top:0; left:-360px;"}/
+          .nivo-slice{name: "7", style: "left: 420px; width: 60px; height: 360px; opacity: 0.654256; overflow: hidden; bottom: 0px;"}
+            %img{src: "images/big-image2.jpg", style: "position:absolute; width:900px; height:auto; display:block !important; top:0; left:-420px;"}/
+          .nivo-slice{name: "8", style: "left: 480px; width: 60px; height: 360px; opacity: 0.7599; overflow: hidden; bottom: 0px;"}
+            %img{src: "images/big-image2.jpg", style: "position:absolute; width:900px; height:auto; display:block !important; top:0; left:-480px;"}/
+          .nivo-slice{name: "9", style: "left: 540px; width: 60px; height: 360px; opacity: 0.8479; overflow: hidden; bottom: 0px;"}
+            %img{src: "images/big-image2.jpg", style: "position:absolute; width:900px; height:auto; display:block !important; top:0; left:-540px;"}/
+          .nivo-slice{name: "10", style: "left: 600px; width: 60px; height: 360px; opacity: 0.914736; overflow: hidden; bottom: 0px;"}
+            %img{src: "images/big-image2.jpg", style: "position:absolute; width:900px; height:auto; display:block !important; top:0; left:-600px;"}/
+          .nivo-slice{name: "11", style: "left: 660px; width: 60px; height: 360px; opacity: 0.96; overflow: hidden; bottom: 0px;"}
+            %img{src: "images/big-image2.jpg", style: "position:absolute; width:900px; height:auto; display:block !important; top:0; left:-660px;"}/
+          .nivo-slice{name: "12", style: "left: 720px; width: 60px; height: 360px; opacity: 0.991536; overflow: hidden; bottom: 0px;"}
+            %img{src: "images/big-image2.jpg", style: "position:absolute; width:900px; height:auto; display:block !important; top:0; left:-720px;"}/
+          .nivo-slice{name: "13", style: "left: 780px; width: 60px; height: 360px; opacity: 1; overflow: hidden; bottom: 0px;"}
+            %img{src: "images/big-image2.jpg", style: "position:absolute; width:900px; height:auto; display:block !important; top:0; left:-780px;"}/
+          .nivo-slice{name: "14", style: "left: 840px; width: 60px; height: 360px; opacity: 1; overflow: hidden; bottom: 0px;"}
+            %img{src: "images/big-image2.jpg", style: "position:absolute; width:900px; height:auto; display:block !important; top:0; left:-840px;"}/
+        .nivo-controlNav
+          %a.nivo-control{rel: "0"} 1
+          %a.nivo-control{rel: "1"} 2
+          %a.nivo-control.active{rel: "2"} 3
+          %a.nivo-control{rel: "3"} 4
+        #htmlcaption.nivo-html-caption
+          %h4 This is an example for title
+          %p
+            %span Welcome to Bromo Bussines and Portofolio Template.
+      %span.shadowNivo
+        %img{alt: "", src: "images/big-shadow.png"}/
+      / end nivo slider
     .clear
-    #main
-      .main-wrap
-        #slider
-          / start nivo slider
-          .slider-wrapper
-            #sliderv.nivoSlider
-              %img{alt: "", src: "images/big-image0.jpg", title: "<p><span><b>BROMO TEMPLATE</b> <i>CLEAN and MINIMALIST business template</b></span></p>"}/
-              %img{alt: "", src: "images/big-image1.jpg"}/
-              %img{alt: "", src: "images/big-image2.jpg", title: "#htmlcaption"}/
-              %img{alt: "", src: "images/big-image3.jpg"}/
-            #htmlcaption.nivo-html-caption
-              %h4 This is an example for title
-              %p
-                %span Welcome to Bromo Bussines and Portofolio Template.
-          %span.shadowNivo
-            %img{alt: "", src: "images/big-shadow.png"}/
-          / end nivo slider
-        .clear
-        .promo-box
-        -#  .threeFifths
-        -#  .twoFifths.last
-        -#    %span.or
-        .clear20
-        / start three columns
-        .oneThird
-          %img.fl{alt: "", src: "images/iMac.png"}/
-          %h3 Ut Wisi Enim Ad Minim Veniam
-          .clear20
-          %p
-            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
-            nibh euismod tincidunt ut laoreet dolore magnamus aliquam erat volutpat.
-            Ut wisi enim ad minim veniam.
-          .clear20
-          %a.button.fr{href: "#"} Read More >
-        .oneThird
-          %img.fl{alt: "", src: "images/lab.png"}/
-          %h3 Conse Cetuer Adipiscing Elit
-          .clear20
-          %p
-            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
-            nibh euismod tincidunt ut laoreet dolore magnamus aliquam erat volutpat.
-            Ut wisi enim ad minim veniam.
-          .clear20
-          %a.button.fr{href: "#"} Read More >
-        .oneThird.last
-          %img.fl{alt: "", src: "images/lifesaver.png"}/
-          %h3 Sed Diam Nibh Euismod Tincidunt
-          .clear20
-          %p
-            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
-            nibh euismod tincidunt ut laoreet dolore magnamus aliquam erat volutpat.
-            Ut wisi enim ad minim veniam.
-          .clear20
-          %a.button.fr{href: "#"} Read More >
-        / end three columns
-        .clear20
-        .separator
-          %h5 Latest Portofolio
-          .sep_line
-          / separator line
-        .clear
-        / start Portofolios
-        .oneThird
-          .image.frameInner
-            %a{"data-rel" => "prettyPhoto", href: "images/image1.jpg"}
-              %img{alt: "", src: "images/image1.jpg"}/
-              .mask.zoom
-                %p Jan 24, 2012
-          %span.shadow
-            %img{alt: "", src: "images/big-shadow4.png"}/
-          %h3
-            %a{href: "#"} Corporate Premium Template
-          %br/
-          %p
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-            Lorem Ipsum has been the industry's standard dummy  text ever since the 1500s.
-          %br/
-        .oneThird
-          .image.frameInner
-            %a{"data-rel" => "prettyPhoto", href: "http://www.youtube.com/watch?v=9ul0Qrlcu3s"}
-              %img{alt: "", src: "images/image2.jpg"}/
-              .mask.youtube
-                %p Jan 24, 2012
-          %span.shadow
-            %img{alt: "", src: "images/big-shadow4.png"}/
-          %h3
-            %a{href: "#"} Corporate Premium Template
-          %br/
-          %p
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-            Lorem Ipsum has been the industry's standard dummy  text ever since the 1500s.
-          %br/
-        .oneThird.last
-          .image.frameInner
-            %a{"data-rel" => "prettyPhoto", href: "images/image3.jpg"}
-              %img{alt: "", src: "images/image3.jpg"}/
-              .mask.zoom
-                %p Jan 24, 2012
-          %span.shadow
-            %img{alt: "", src: "images/big-shadow4.png"}/
-          %h3
-            %a{href: "#"} Corporate Premium Template
-          %br/
-          %p
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-            Lorem Ipsum has been the industry's standard dummy  text ever since the 1500s.
-          %br/
-        / end portofolio columns
-        .clear
-        .separator
-          %h5 Our Services
-          .sep_line
-          / separator line
-        .clear
-        / start services
-        .threeFifths
-          .oneFifth.columns
-            .iconbox
-              %span.iconbox-icon
-                %img{alt: "", src: "./images/help.png"}/
-              .iconbox-content
-                %h3.iconbox-content-title Full Support
-                %p Lorem ipsum dolor sit amet, consectetuer adipiscing elit
-          .oneFifth.columns
-            .iconbox
-              %span.iconbox-icon
-                %img{alt: "", src: "./images/gears.png"}/
-              .iconbox-content
-                %h3.iconbox-content-title Easy Setup
-                %p Lorem ipsum dolor sit amet, consectetuer adipiscing elit
-          .oneFifth.columns.last
-            .iconbox
-              %span.iconbox-icon
-                %img{alt: "", src: "./images/movie.png"}/
-              .iconbox-content
-                %h3.iconbox-content-title Video Support
-                %p Lorem ipsum dolor sit amet, consectetuer adipiscing elit
-          .clear20
-          .oneFifth.columns
-            .iconbox
-              %span.iconbox-icon
-                %img{alt: "", src: "./images/layout.png"}/
-              .iconbox-content
-                %h3.iconbox-content-title Beautiful design
-                %p Lorem ipsum dolor sit amet, consectetuer adipiscing elit
-          .oneFifth.columns
-            .iconbox
-              %span.iconbox-icon
-                %img{alt: "", src: "./images/write.png"}/
-              .iconbox_content
-                %h3.iconbox-content-title Framework
-                %p Lorem ipsum dolor sit amet, consectetuer adipiscing elit
-          .oneFifth.columns.last
-            .iconbox
-              %span.iconbox-icon
-                %img{alt: "", src: "./images/download.png"}/
-              .iconbox-content
-                %h3.iconbox-content-title Download
-                %p Lorem ipsum dolor sit amet, consectetuer adipiscing elit
-        .twoFifths.last
-          / start toggles
-          .toggles
-            %ul
-              %li
-                %a{"data-closedimage" => "./images/plus.png", "data-openimage" => "./images/minus.png", "data-rel" => "toggle[first]", href: "#"}
-                  %img{alt: "", src: "./images/plus.png"}/
-                  %h4 Duis autem vel eum iriure
-                #first
-                  %p
-                    Lorem ipsum dolor sit amet, consectetueruer adipiscing elit, sed diam nonummy
-                    nibhhhitest euismod tincidunt ut laoreet dolore magnamus aliquam erat volutpat.
-                    Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis
-                    nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit
-                    in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis
-                    at vero
-              %li
-                %a{"data-closedimage" => "./images/plus.png", "data-openimage" => "./images/minus.png", "data-rel" => "toggle[second]", href: "#"}
-                  %img{alt: "", src: "./images/plus.png"}/
-                  %h4 Vel illum dolore eu feugiat
-                #second
-                  %p
-                    Lorem ipsum dolor sit amet, consectetueruer adipiscing elit, sed diam nonummy
-                    nibhhhitest euismod tincidunt ut laoreet dolore magnamus aliquam erat volutpat.
-                    Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit
-                    lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor
-                    in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat
-                    nulla facilisis at vero
-              %li
-                %a{"data-closedimage" => "./images/plus.png", "data-openimage" => "./images/minus.png", "data-rel" => "toggle[third]", href: "#"}
-                  %img{alt: "", src: "./images/plus.png"}/
-                  %h4 Euismod tincidunt ut laoreet
-                #third
-                  %p
-                    Rabbits are ground dwellers that live in environments ranging from desert
-                    to tropical forest and wetland. Their natural geographic range encompasses the
-                    middle latitudes of the Western Hemisphere. In the Eastern
-                    Hemisphere rabbits are found in Europe,
-                    portions of Central and Southern Africa, the Indian subcontinent, Sumatra, and Japan.
-    .testimonial-wrap
-      .testimonial
+    .promo-box
+      .threeFifths
+        %h2 Welcome to Bromo Business and Corporate Template
+        %h3 Laoreet dolore magnamus aliquam erat volutpat
+      .twoFifths.last
+        %a.button.medium.blue{href: "#"} Buy now for $15
+        %span.or
+          %span or
+        %a.button.medium.orange{href: "#"} Take the tour
+    .clear20
+    / start three columns
+    .oneThird
+      %img.fl{alt: "", src: "images/iMac.png"}/
+      %h3 Ut Wisi Enim Ad Minim Veniam
+      .clear20
+      %p
+        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
+        nibh euismod tincidunt ut laoreet dolore magnamus aliquam erat volutpat.
+        Ut wisi enim ad minim veniam.
+      .clear20
+      %a.button.fr{href: "#"} Read More >
+    .oneThird
+      %img.fl{alt: "", src: "images/lab.png"}/
+      %h3 Conse Cetuer Adipiscing Elit
+      .clear20
+      %p
+        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
+        nibh euismod tincidunt ut laoreet dolore magnamus aliquam erat volutpat.
+        Ut wisi enim ad minim veniam.
+      .clear20
+      %a.button.fr{href: "#"} Read More >
+    .oneThird.last
+      %img.fl{alt: "", src: "images/lifesaver.png"}/
+      %h3 Sed Diam Nibh Euismod Tincidunt
+      .clear20
+      %p
+        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
+        nibh euismod tincidunt ut laoreet dolore magnamus aliquam erat volutpat.
+        Ut wisi enim ad minim veniam.
+      .clear20
+      %a.button.fr{href: "#"} Read More >
+    / end three columns
+    .clear20
+    .separator
+      %h5 Latest Portofolio
+      .sep_line
+      / separator line
+    .clear
+    / start Portofolios
+    .oneThird
+      .image.frameInner
+        %a{"data-rel" => "prettyPhoto", href: "images/image1.jpg", rel: "prettyPhoto"}
+          %img{alt: "", src: "images/image1.jpg", style: "visibility: visible; opacity: 1;"}/
+          .mask.zoom
+            %p Jan 24, 2012
+      %span.shadow
+        %img{alt: "", src: "images/big-shadow4.png"}/
+      %h3
+        %a{href: "#"} Corporate Premium Template
+      %br/
+      %p
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+        Lorem Ipsum has been the industry's standard dummy  text ever since the 1500s.
+      %br/
+    .oneThird
+      .image.frameInner
+        %a{"data-rel" => "prettyPhoto", href: "http://www.youtube.com/watch?v=9ul0Qrlcu3s", rel: "prettyPhoto"}
+          %img{alt: "", src: "images/image2.jpg", style: "visibility: visible; opacity: 1;"}/
+          .mask.youtube
+            %p Jan 24, 2012
+      %span.shadow
+        %img{alt: "", src: "images/big-shadow4.png"}/
+      %h3
+        %a{href: "#"} Corporate Premium Template
+      %br/
+      %p
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+        Lorem Ipsum has been the industry's standard dummy  text ever since the 1500s.
+      %br/
+    .oneThird.last
+      .image.frameInner
+        %a{"data-rel" => "prettyPhoto", href: "images/image3.jpg", rel: "prettyPhoto"}
+          %img{alt: "", src: "images/image3.jpg", style: "visibility: visible; opacity: 1;"}/
+          .mask.zoom
+            %p Jan 24, 2012
+      %span.shadow
+        %img{alt: "", src: "images/big-shadow4.png"}/
+      %h3
+        %a{href: "#"} Corporate Premium Template
+      %br/
+      %p
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+        Lorem Ipsum has been the industry's standard dummy  text ever since the 1500s.
+      %br/
+    / end portofolio columns
+    .clear
+    .separator
+      %h5 Our Services
+      .sep_line
+      / separator line
+    .clear
+    / start services
+    .threeFifths
+      .oneFifth.columns
+        .iconbox
+          %span.iconbox-icon
+            %img{alt: "", src: "./images/help.png"}/
+          .iconbox-content
+            %h3.iconbox-content-title Full Support
+            %p Lorem ipsum dolor sit amet, consectetuer adipiscing elit
+      .oneFifth.columns
+        .iconbox
+          %span.iconbox-icon
+            %img{alt: "", src: "./images/gears.png"}/
+          .iconbox-content
+            %h3.iconbox-content-title Easy Setup
+            %p Lorem ipsum dolor sit amet, consectetuer adipiscing elit
+      .oneFifth.columns.last
+        .iconbox
+          %span.iconbox-icon
+            %img{alt: "", src: "./images/movie.png"}/
+          .iconbox-content
+            %h3.iconbox-content-title Video Support
+            %p Lorem ipsum dolor sit amet, consectetuer adipiscing elit
+      .clear20
+      .oneFifth.columns
+        .iconbox
+          %span.iconbox-icon
+            %img{alt: "", src: "./images/layout.png"}/
+          .iconbox-content
+            %h3.iconbox-content-title Beautiful design
+            %p Lorem ipsum dolor sit amet, consectetuer adipiscing elit
+      .oneFifth.columns
+        .iconbox
+          %span.iconbox-icon
+            %img{alt: "", src: "./images/write.png"}/
+          .iconbox_content
+            %h3.iconbox-content-title Framework
+            %p Lorem ipsum dolor sit amet, consectetuer adipiscing elit
+      .oneFifth.columns.last
+        .iconbox
+          %span.iconbox-icon
+            %img{alt: "", src: "./images/download.png"}/
+          .iconbox-content
+            %h3.iconbox-content-title Download
+            %p Lorem ipsum dolor sit amet, consectetuer adipiscing elit
+    .twoFifths.last
+      / start toggles
+      .toggles
         %ul
           %li
-            %p
-              "Beautiful layout,
-              = succeed "," do
-                %span good documentation
+            %a{"data-closedimage" => "./images/plus.png", "data-openimage" => "./images/minus.png", "data-rel" => "toggle[first]", href: "#", rel: "toggle[first]"}
+              %img{alt: "", src: "./images/minus.png"}/
+              %h4 Duis autem vel eum iriure
+            #first{fade: "1", groupname: "pets", speed: "400", style: ""}
+              %p
+                Lorem ipsum dolor sit amet, consectetueruer adipiscing elit, sed diam nonummy
+                nibhhhitest euismod tincidunt ut laoreet dolore magnamus aliquam erat volutpat.
+                Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis
+                nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit
+                in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis
+                at vero
           %li
-            %p
-              "Very impressive theme, really ! By the simplicity of the customization and the choice
-              of the graphicals elements to do it. ."- Yasamin Jasem (Mobilabs.com) -
+            %a{"data-closedimage" => "./images/plus.png", "data-openimage" => "./images/minus.png", "data-rel" => "toggle[second]", href: "#", rel: "toggle[second]"}
+              %img{alt: "", src: "./images/plus.png"}/
+              %h4 Vel illum dolore eu feugiat
+            #second{fade: "1", groupname: "pets", speed: "400", style: "display: none;"}
+              %p
+                Lorem ipsum dolor sit amet, consectetueruer adipiscing elit, sed diam nonummy
+                nibhhhitest euismod tincidunt ut laoreet dolore magnamus aliquam erat volutpat.
+                Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit
+                lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor
+                in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat
+                nulla facilisis at vero
           %li
-            %p
-              "Wow... This theme is fantastic.
-              = succeed "." do
-                %span Purchasing now
-    / end testimonial
-:javascript
-    $(window).load(function() {
-      $('#sliderv').nivoSlider({ pauseTime: parseInt(5000), pauseOnHover: true, effect: 'random', controlNav: true, captionOpacity: .7, directionNavHide: true, controlNavThumbs:false, controlNavThumbsFromRel:false, boxCols:8, boxRows:4, afterLoad: function(){
-      $('#slider_loading').css('display', 'none');
-      $('#slider_wrapper').css('visibility', 'visible');
-      } });
-      });
+            %a{"data-closedimage" => "./images/plus.png", "data-openimage" => "./images/minus.png", "data-rel" => "toggle[third]", href: "#", rel: "toggle[third]"}
+              %img{alt: "", src: "./images/plus.png"}/
+              %h4 Euismod tincidunt ut laoreet
+            #third{fade: "1", groupname: "pets", speed: "400", style: "display: none;"}
+              %p
+                Rabbits are ground dwellers that live in environments ranging from desert
+                to tropical forest and wetland. Their natural geographic range encompasses the
+                middle latitudes of the Western Hemisphere. In the Eastern
+                Hemisphere rabbits are found in Europe,
+                portions of Central and Southern Africa, the Indian subcontinent, Sumatra, and Japan.
+      / end toggles
+    / end services block
+/ end main
+.clear20
+/ start testimonial
+.testimonial-wrap
+  .testimonial
+    %ul{style: "position: relative; width: 900px; height: 64px; overflow: hidden;"}
+      %li{style: "position: absolute; top: 64px; left: 0px; display: none; z-index: 3; opacity: 1; width: 900px; height: 64px;"}
+        %p
+          "Beautiful layout,
+          = succeed "," do
+            %span good documentation
+      %li{style: "position: absolute; top: 0px; left: 0px; display: block; z-index: 4; opacity: 1; width: 900px; height: 64px;"}
+        %p
+          "Very impressive theme, really ! By the simplicity of the customization and the choice
+          of the graphicals elements to do it. ."- Yasamin Jasem (Mobilabs.com) -
+      %li{style: "position: absolute; top: 64px; left: 0px; display: none; z-index: 3; opacity: 1; width: 900px; height: 64px;"}
+        %p
+          "Wow... This theme is fantastic.
+          = succeed "." do
+            %span Purchasing now
+/ end testimonial
+

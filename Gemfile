@@ -7,7 +7,6 @@ gem 'rails', '3.2.10'
 
 
 
-
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
@@ -23,16 +22,23 @@ end
 gem 'jquery-rails'
 gem 'haml'
 
-group :production do
-  gem "pg"
-end
 group :development, :test do
-  gem 'sqlite3'
+  gem 'mysql2'
 end
 
 
+gem "therubyracer"
+
+group :assets do
+  gem "less-rails" #Sprockets (what Rails 3.1 uses for its asset pipeline) supports LESS
+  gem 'twitter-bootstrap-rails', :git => 'git://github.com/seyhunak/twitter-bootstrap-rails.git'
+end
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
+
+group :production do
+  gem 'pg'
+end
 
 # To use Jbuilder templates for JSON
 # gem 'jbuilder'
