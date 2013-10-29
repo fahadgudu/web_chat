@@ -399,80 +399,80 @@
 
 
 /* gray */
-.menu3dmega.skin-gray{
-    background-color:#4D5766;
-    border-left: 1px solid #394352;
-    border-top: 1px solid #394352;
-    border-right: 1px solid #394352;
-    border-bottom: none;
-}
-.menu3dmega.skin-gray.vertical{
-    border-left: 1px solid #394352;
-    border-top: 1px solid #394352;
-    border-right: none;
-    border-bottom: 1px solid #394352;
-}
-.menu3dmega.skin-gray > ul > li{
-    border-left: 1px solid #616B7A;
-    border-right: 1px solid #394352;
-}
-.menu3dmega.skin-gray.vertical > ul > li{
-    border-top: 1px solid #616B7A;
-    border-bottom: 1px solid #394352;
-}
-.menu3dmega.skin-gray > ul > li:hover{
-    background-color:#394352;
-}
-.menu3dmega.skin-gray > ul > li.no-link:hover{
-    background-color:transparent;
-}
-.menu3dmega.skin-gray .dropdown-menu{
-    border-bottom: 2px solid #4D5766;
-}
-.menu3dmega.skin-gray a:hover{
-    color:#4D5766;
-}
-.menu3dmega.skin-gray .menu-search input[type="text"]{
-    border:1px solid #394352;
-}
+/*.menu3dmega.skin-gray{*/
+    /*background-color:#4D5766;*/
+    /*border-left: 1px solid #394352;*/
+    /*border-top: 1px solid #394352;*/
+    /*border-right: 1px solid #394352;*/
+    /*border-bottom: none;*/
+/*}*/
+/*.menu3dmega.skin-gray.vertical{*/
+    /*border-left: 1px solid #394352;*/
+    /*border-top: 1px solid #394352;*/
+    /*border-right: none;*/
+    /*border-bottom: 1px solid #394352;*/
+/*}*/
+/*.menu3dmega.skin-gray > ul > li{*/
+    /*border-left: 1px solid #616B7A;*/
+    /*border-right: 1px solid #394352;*/
+/*}*/
+/*.menu3dmega.skin-gray.vertical > ul > li{*/
+    /*border-top: 1px solid #616B7A;*/
+    /*border-bottom: 1px solid #394352;*/
+/*}*/
+/*.menu3dmega.skin-gray > ul > li:hover{*/
+    /*background-color:#394352;*/
+/*}*/
+/*.menu3dmega.skin-gray > ul > li.no-link:hover{*/
+    /*background-color:transparent;*/
+/*}*/
+/*.menu3dmega.skin-gray .dropdown-menu{*/
+    /*border-bottom: 2px solid #4D5766;*/
+/*}*/
+/*.menu3dmega.skin-gray a:hover{*/
+    /*color:#4D5766;*/
+/*}*/
+/*.menu3dmega.skin-gray .menu-search input[type="text"]{*/
+    /*border:1px solid #394352;*/
+/*}*/
 
 /* black */
-.menu3dmega.skin-black{
-    background-color:#333333;
-    border-left: 1px solid #000000;
-    border-top: 1px solid #000000;
-    border-right: 1px solid #000000;
-    border-bottom: none;
-}
-.menu3dmega.skin-black.vertical{
-    border-left: 1px solid #000000;
-    border-top: 1px solid #000000;
-    border-right: none;
-    border-bottom: 1px solid #000000;
-}
-.menu3dmega.skin-black > ul > li{
-    border-left: 1px solid #666666;
-    border-right: 1px solid #000000;
-}
-.menu3dmega.skin-black.vertical > ul > li{
-    border-top: 1px solid #666666;
-    border-bottom: 1px solid #000000;
-}
-.menu3dmega.skin-black > ul > li:hover{
-    background-color:#000000;
-}
-.menu3dmega.skin-black > ul > li.no-link:hover{
-    background-color:transparent;
-}
-.menu3dmega.skin-black .dropdown-menu{
-    border-bottom: 2px solid #333333;
-}
-.menu3dmega.skin-black a:hover{
-    color:#333333;
-}
-.menu3dmega.skin-black .menu-search input[type="text"]{
-    border:1px solid #000000;
-}
+/*.menu3dmega.skin-black{*/
+    /*background-color:#333333;*/
+    /*border-left: 1px solid #000000;*/
+    /*border-top: 1px solid #000000;*/
+    /*border-right: 1px solid #000000;*/
+    /*border-bottom: none;*/
+/*}*/
+/*.menu3dmega.skin-black.vertical{*/
+    /*border-left: 1px solid #000000;*/
+    /*border-top: 1px solid #000000;*/
+    /*border-right: none;*/
+    /*border-bottom: 1px solid #000000;*/
+/*}*/
+/*.menu3dmega.skin-black > ul > li{*/
+    /*border-left: 1px solid #666666;*/
+    /*border-right: 1px solid #000000;*/
+/*}*/
+/*.menu3dmega.skin-black.vertical > ul > li{*/
+    /*border-top: 1px solid #666666;*/
+    /*border-bottom: 1px solid #000000;*/
+/*}*/
+/*.menu3dmega.skin-black > ul > li:hover{*/
+    /*background-color:#000000;*/
+/*}*/
+/*.menu3dmega.skin-black > ul > li.no-link:hover{*/
+    /*background-color:transparent;*/
+/*}*/
+/*.menu3dmega.skin-black .dropdown-menu{*/
+    /*border-bottom: 2px solid #333333;*/
+/*}*/
+/*.menu3dmega.skin-black a:hover{*/
+    /*color:#333333;*/
+/*}*/
+/*.menu3dmega.skin-black .menu-search input[type="text"]{*/
+    /*border:1px solid #000000;*/
+/*}*/
 
 
 
